@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+.d {
+    position: relative;
+    top: 20px;
+}
+
+p {
+    border: 1px solid black;
+    height: 25px;
+    width: 100px;
+    color: white;
+    float: right;
+    margin: 0;
+    font-size: 120%;
+    text-align: center;
+}
+
+section {
+    border: 1px solid black;
+    background-color: grey;
+    padding: 0px 0px 10px 10px;
+    margin: 10px;
+    font-size: 55%;
+}
+
+#p1 {
+    background: lightseagreen;
+}
+
+#p2 {
+    background: green;
+}
+
+#p3 {
+    background: brown;
+}
+
+@media (min-width: 992px) {
+    .d {
+        left: 20px;
+    }
+    .col-lg-1 {
+        float: left;
+        width: 30%;
+    }
+    .col-lg-2 {
+        float: left;
+        width: 30%;
+    }
+    .col-lg-3 {
+        float: left;
+        width: 30%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .d {
+        left: 70px;
+    }
+    .col-md-1 {
+        float: left;
+        width: 40%;
+    }
+    .col-md-2 {
+        float: left;
+        width: 40%;
+    }
+    .col-md-3 {
+        float: left;
+        width: 82.50%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .d {
+        left: 70px;
+    }
+    .col-sm-1 {
+        float: left;
+        width: 70%;
+    }
+    .col-sm-2 {
+        float: left;
+        width: 70%;
+    }
+    .col-sm-3 {
+        float: left;
+        width: 70%;
+    }
+}
