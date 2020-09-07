@@ -1,26 +1,33 @@
 *{
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 120%;
 }
 h1 {
     text-align: center;
     font-weight: bold;
 }
-.d {
-    position: relative;
-    padding: 10px;
+.row {
+    width: 100%;
 }
 
 p {
     border: 1px solid black;
-    height: 25px;
+    height: 35px;
     width: 100px;
-    color: white;
     float: right;
     margin: 0;
-    font-size: 120%;
+    color: white;
+    font-size: 20px;
     text-align: center;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
 }
 
 section {
@@ -28,10 +35,11 @@ section {
     background-color: grey;
     padding: 0px 0px 10px 10px;
     margin: 10px;
-    font-size: 55%;
-    width: 500px;
+    font-size: 20px;
     height: 200px;
     overflow: auto;
+    position: relative;
+    color: black;
 }
 
 #p1 {
@@ -46,63 +54,52 @@ section {
     background: brown;
 }
 
-@media (min-width: 992px) {
-    .d {
-        left: 20px;
-    }
+
+@media (min-width: 1102px) {
+
     .col-lg-1 {
         float: left;
-        width: 30%;
+        width: 33.33%;
     }
     .col-lg-2 {
         float: left;
-        width: 30%;
+        width: 33.33%;
     }
     .col-lg-3 {
         float: left;
-        width: 30%;
+        width: 33.33%;
     }
 }
 
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .d {
-        left: 70px;
-    }
+@media (min-width: 853px) and (max-width: 1102px) {
     .col-md-1 {
         float: left;
-        width: 40%;
+        width: 50%;
     }
     .col-md-2 {
         float: left;
-        width: 40%;
+        width: 50%;
     }
     .col-md-3 {
         float: left;
-        width: 82.50%;
-        height: auto;
+        width: 100%;
     }
 }
 
 
-@media (max-width: 767px) {
-    .d {
-        left: 70px;
-        bottom: 20px;
-    }
+@media (max-width: 852px) {
+
     .col-sm-1 {
         float: left;
-        width: 70%;
-        height: auto;
+        width: 100%;
     }
     .col-sm-2 {
         float: left;
-        width: 70%;
-        height: auto;
+        width: 100%;
     }
     .col-sm-3 {
         float: left;
-        width: 70%;
-        height: auto;
+        width: 100%;
     }
 }
