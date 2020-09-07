@@ -9,7 +9,7 @@ h1 {
 }
 .d {
     position: relative;
-    top: 20px;
+    padding: 10px;
 }
 
 p {
@@ -29,6 +29,9 @@ section {
     padding: 0px 0px 10px 10px;
     margin: 10px;
     font-size: 55%;
+    width: 500px;
+    height: 200px;
+    overflow: auto;
 }
 
 #p1 {
@@ -77,6 +80,7 @@ section {
     .col-md-3 {
         float: left;
         width: 82.50%;
+        height: auto;
     }
 }
 
@@ -84,17 +88,21 @@ section {
 @media (max-width: 767px) {
     .d {
         left: 70px;
+        bottom: 20px;
     }
     .col-sm-1 {
         float: left;
         width: 70%;
+        height: auto;
     }
     .col-sm-2 {
         float: left;
         width: 70%;
+        height: auto;
     }
     .col-sm-3 {
         float: left;
         width: 70%;
+        height: auto;
     }
 }
