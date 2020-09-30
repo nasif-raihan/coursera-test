@@ -1,0 +1,26 @@
+section {
+    top: 40px;
+    bottom: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#d1, #d2, #d3 {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    background-color: rgb(120, 206, 209);
+    height: 1000px;
+}
+
+h2 {
+    margin: 40px;
+}
+
+
+@media (max-width: 575.98px) {
+    #navbarSupportedContent {
+        background-color:  rgb(120, 206, 209);
+    }
+}
